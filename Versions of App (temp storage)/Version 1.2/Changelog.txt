@@ -1,0 +1,57 @@
+Version 1 to 1.2 Changelog
+
+Version 1 made by George.
+
+Version 1.2 made by Kean.
+
+
+Changelog:
+
+Files Added in "drawable":
+	dark_grey_logo.png
+	dark_rounded.xml
+	light_rounded.xml
+	white_rounded.xml
+
+Changes to strings.xml:
+	Changed app_name from v1 to v1.7
+	Added new string called "title" which will now be displayed at the top of pages.
+
+Changes to every activities/pages xml file:
+	Changed the top textviews android:id property to titlePageName where PageName is the name of that page (e.g. HomePage).
+	Changed the title's android:fontFamily to "casual".
+	Changed each buttons android:background to ""@drawable/dark_rounded_btn" or "@drawable/light_rounded_btn".
+	Changed textColor to appropriate colour.
+	Removed most button and text android:layout_marginStart XML lines and added app:layout_constraintStart_toStartOf lines to replace them.
+	Changed some text fonts.
+
+Changes to every xml file with a bin picture in it:
+	Added <ImageView/> item to the XML file.  This is used to show the wheelie bin logo.
+
+I also went through every page and made the text size, colour, font as well as shape height and width consistent for each type of item.
+
+
+Dark Grey colour = #585858
+Light Grey used for text in enries: #B2B2B2
+
+Button heights: 50dp
+Button widths:  320dp
+Button text:
+Lowercase
+Size 24sp
+sans-serif-medium
+Centre Alligned
+
+Logo Heights x Width = 200dp x 200dp
+
+Title Heights = 55dp
+Title Widths = 280dp
+Title text:
+Size 40sp
+casual font
+Centre Alligned
+Italics
+Top Margin: 80
+
+
+Standard, non button text: size 18
